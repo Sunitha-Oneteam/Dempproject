@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HomePage</title>
+</head>
+<body>
+<h1>Welcome</h1>
+<form action="dis" method="post">
+	{% csrf_token %}                Jinja,DTL
+	<input type="text" name="txt1">
+	<input type="s" name="btn" value="OK">
+</form>
+{{msg}}
+</body>
+</html>
+

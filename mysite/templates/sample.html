@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<!--<form action="dis" method="POST" >
+	{%csrf_token%} DTL :- Django Template Language or Jinja Format !-->
+
+
+<form action="dis" method="post" >
+	{% csrf_token %}	
+Name:<input type="text" name="btn" >
+	<input type="submit" value="OK" name="btn">
+	
+	</form>   
+	{{msg}}    
+</body>
+</html>
+
